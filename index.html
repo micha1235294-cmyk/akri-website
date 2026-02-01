@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Akademi Kepolisian Republik Indonesia (AKRI)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f4f6f8;
+}
+header{
+  background:#0d47a1;
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+nav{
+  background:#e3f2fd;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:10px;
+  padding:10px;
+}
+nav a{
+  text-decoration:none;
+  background:white;
+  color:#0d47a1;
+  padding:8px 14px;
+  border-radius:6px;
+  font-weight:bold;
+}
+section{
+  padding:20px;
+}
+.card{
+  background:white;
+  padding:18px;
+  margin-bottom:20px;
+  border-radius:10px;
+}
+h2,h3{
+  color:#0d47a1;
+}
+button{
+  background:#0d47a1;
+  color:white;
+  border:none;
+  padding:8px 12px;
+  border-radius:6px;
+  cursor:pointer;
+}
+.answer{
+  display:none;
+  margin-top:8px;
+  color:green;
+  font-weight:bold;
+}
+footer{
+  text-align:center;
+  font-size:12px;
+  color:#555;
+  padding:15px;
+}
+</style>
+
+<script>
+function show(id){
+  document.getElementById(id).style.display = "block";
+}
+</script>
+
+</head>
+<body>
+
+<header>
+<h1>AKADEMI KEPOLISIAN REPUBLIK INDONESIA</h1>
+<p>(AKRI)</p>
+<p>Pusat Pendidikan & Pembentukan Perwira Polri</p>
+</header>
+
+<nav>
+<a href="#profil">Profil</a>
+<a href="#pendidikan">Pendidikan</a>
+<a href="#tingkat">Tingkat AKRI</a>
+<a href="#materi">Materi Akademik</a>
+<a href="#ujian">Ujian & Evaluasi</a>
+<a href="#lulus">Kelulusan</a>
+</nav>
+
+<section id="profil">
+<div class="card">
+<h2>Profil AKRI</h2>
+<p>
+Akademi Kepolisian Republik Indonesia (AKRI) merupakan lembaga pendidikan
+kedinasan yang bertugas membentuk calon perwira Polri yang profesional,
+berintegritas, dan berjiwa kepemimpinan.
+</p>
+</div>
+</section>
+
+<section id="pendidikan">
+<div class="card">
+<h2>Sistem Pendidikan AKRI</h2>
+<ul>
+<li>Pendidikan Akademik</li>
+<li>Pendidikan Kepribadian</li>
+<li>Pendidikan Jasmani & Mental</li>
+<li>Pendidikan Kepemimpinan</li>
+</ul>
+</div>
+</section>
+
+<section id="tingkat">
+<div class="card">
+<h2>Tingkatan Pendidikan AKRI</h2>
+
+<h3>Tingkat I – Calon Taruna</h3>
+<p>Dasar kepolisian, disiplin, dan pembentukan karakter.</p>
+
+<h3>Tingkat II – Taruna Muda</h3>
+<p>Hukum pidana, lalu lintas, dan fungsi kepolisian.</p>
+
+<h3>Tingkat III – Taruna Madya</h3>
+<p>Manajemen kepolisian dan taktik operasional.</p>
+
+<h3>Tingkat IV – Taruna Utama</h3>
+<p>Kepemimpinan, strategi, dan kesiapan perwira.</p>
+
+</div>
+</section>
+
+<section id="materi">
+<div class="card">
+<h2>Materi Akademik AKRI</h2>
+
+<ul>
+<li>Hukum Pidana & Acara Pidana</li>
+<li>Lalu Lintas & Angkutan Jalan</li>
+<li>Samapta & Sabhara</li>
+<li>Intelkam</li>
+<li>Reserse Kriminal</li>
+<li>Propam & Etika Profesi</li>
+<li>Manajemen Kepolisian</li>
+</ul>
+
+<h3>Contoh Soal</h3>
+<p>Apa tugas utama fungsi Lalu Lintas Polri?</p>
+<button onclick="show('j1')">Tampilkan Jawaban</button>
+<div id="j1" class="answer">
+Mengatur, menjaga, mengawal, dan patroli lalu lintas.
+</div>
+
+</div>
+</section>
+
+<section id="ujian">
+<div class="card">
+<h2>Ujian & Evaluasi</h2>
+
+<h3>Ujian Tengah Pendidikan</h3>
+<p>1. Sebutkan fungsi utama Polri!</p>
+
+<h3>Ujian Akhir Pendidikan</h3>
+<p>1. Jelaskan peran perwira Polri di masyarakat!</p>
+
+</div>
+</section>
+
+<section id="lulus">
+<div class="card">
+<h2>🎓 Kelulusan AKRI</h2>
+<p>
+Taruna yang lulus pendidikan AKRI akan dilantik menjadi:
+</p>
+<ul>
+<li>INSPEKTUR POLISI DUA (IPDA)</li>
+</ul>
+
+<p><b>Syarat Lulus:</b></p>
+<ul>
+<li>Lulus akademik</li>
+<li>Lulus jasmani</li>
+<li>Lulus mental & kepribadian</li>
+<li>Lulus ujian akhir</li>
+</ul>
+</div>
+</section>
+
+<footer>
+© 2026 Akademi Kepolisian Republik Indonesia (AKRI)  
+<br>Website Pendidikan
+</footer>
+
+</body>
+                                  </html>
